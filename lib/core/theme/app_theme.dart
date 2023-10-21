@@ -33,7 +33,7 @@ class AppTheme {
           titleLarge: GoogleFonts.markaziText(
               color: blackColor, fontSize: 40, fontWeight: FontWeight.w800),
           titleMedium: GoogleFonts.milonga(
-              color: blackColor, fontSize: 24, fontWeight: FontWeight.w400),
+              color: blackColor, fontSize: 30, fontWeight: FontWeight.w400),
           bodyLarge: GoogleFonts.inter(
               color: blackColor, fontSize: 20, fontWeight: FontWeight.w600),
           bodyMedium: GoogleFonts.inter(

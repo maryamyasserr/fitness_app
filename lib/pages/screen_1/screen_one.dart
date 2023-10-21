@@ -2,6 +2,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:fitness_app/widgets/container_slider.dart';
 import 'package:fitness_app/widgets/excercise_container.dart';
 import 'package:fitness_app/widgets/mood_widget.dart';
+import 'package:fitness_app/widgets/rate_container.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 

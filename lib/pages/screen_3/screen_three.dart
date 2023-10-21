@@ -124,7 +124,7 @@ class _ScreenThreeState extends State<ScreenThree> {
                 ]
               ),
             ),
-            SizedBox(height: 40),
+            SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -216,7 +216,22 @@ class _ScreenThreeState extends State<ScreenThree> {
                   ],
                 ),
               ),
-            )
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('Cycle Phases and Period',
+                  style: theme.textTheme.bodyLarge,
+                ),
+                Text('see more >',
+                  style: theme.textTheme.bodySmall!.copyWith(
+                      color: Color(0xff5925DC),
+                      fontWeight: FontWeight.bold
+                  ),
+                )
+              ],
+            ),
           ],
         ),
       ),
